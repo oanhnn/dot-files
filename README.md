@@ -2,7 +2,7 @@
 
 ## Usage
 
-- Download and extract to user's home directory
+- Download and extract to your filesystem
 
 ## Contributing
 
