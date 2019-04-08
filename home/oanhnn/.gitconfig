@@ -95,7 +95,7 @@
   lsmod = ls-files -s
 
   # Add or remove execute permission of file (+x or -x)
-  chmod = "!f() { git update-index --chmod=$0 $1 }; f"
+  chmod = "!f() { git update-index --chmod=$1 $2; }; f"
 
   # Undo
   undo = reset --soft HEAD~
